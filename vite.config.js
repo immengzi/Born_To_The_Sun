@@ -14,9 +14,9 @@ export default defineConfig({
     }
   },
   server: {
+    host: '0.0.0.0',
     port: 5200,
-    host: true,//ip地址 或 '0.0.0.0' 或 "loaclhost"
-    open: false, //启动后是否自动打开浏览器
-    https: false, // 是否开启 https
+    open: false,
+    https: false,
   },
 })
